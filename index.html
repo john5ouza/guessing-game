@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/style/style.css">
+
+  <title>Guessing Game</title>
+</head>
+<body>
+   <main>
+    <div class="screen01">
+      <h1>Guessing Game</h1>
+      <p>Guess a number between 0 and 10</p>
+
+      <form>
+        <input id="inputNumber" type="number" min="0" max="10" required>
+        <button id="btnTry"">Try</button>
+      </form>
+    </div>
+
+    <div class="screen02 hide">
+      <h2>Got it right 3 times</h2>
+      <button id="btnReset">Play again</button>
+    </div>
+   </main>
+
+   <script src="./src/script/main.js"></script>
+</body>
+</html>
